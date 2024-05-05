@@ -1,0 +1,80 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="413dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center"
+        app:cardBackgroundColor="@color/trasparente"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:textAlignment="center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:contentDescription="@string/todos"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Ingrese El Correo electrónico para Recuperar la Contraseña"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/CorreoRecuperar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/style_bordes"
+                android:drawableEnd="@android:drawable/sym_action_email"
+                android:ems="10"
+                android:hint="@string/Correo"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/BRecuperar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#6225CF"
+                android:text="@string/Recuperar"
+                android:textColorLink="#673AB7" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

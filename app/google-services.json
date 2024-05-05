@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "409233252084",
+    "firebase_url": "https://liquiya-a9175-default-rtdb.firebaseio.com",
+    "project_id": "liquiya-a9175",
+    "storage_bucket": "liquiya-a9175.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409233252084:android:bed810e5d081dc7e3d08a1",
+        "android_client_info": {
+          "package_name": "com.example.liquiya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgeudDvz-T8FmCVY9gyUoSxKxjxxc36nM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409233252084:android:89efc4bd51aec3003d08a1",
+        "android_client_info": {
+          "package_name": "com.examples.liquiYa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgeudDvz-T8FmCVY9gyUoSxKxjxxc36nM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409233252084:android:371ef7d56e32903d3d08a1",
+        "android_client_info": {
+          "package_name": "com.examples.liquiya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgeudDvz-T8FmCVY9gyUoSxKxjxxc36nM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

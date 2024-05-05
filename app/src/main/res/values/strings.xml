@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LiquiYa</string>
+    <string name="Apellido">Apellidos</string>
+    <string name="BRegistrarse">Registrarse</string>
+    <string name="BRegistrate">Registrate</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Correo">Correo electrónico</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Registro">Registrate</string>
+    <string name="btnIn">Iniciar Sesion</string>
+    <string name="Recuperar">Recuperar Contraseña</string>
+    <string name="pass">Contraseña</string>
+    <string name="todos">LiquiYa</string>
+    <string name="user">Usuario</string>
+
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main" android:background="@drawable/fondo3" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="408dp"
+        android:layout_height="629dp"
+        android:layout_margin="0dp"
+        android:textAlignment="center"
+        app:cardBackgroundColor="@color/trasparente"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="608dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="383dp"
+                android:layout_height="138dp"
+                android:layout_margin="0dp"
+                app:srcCompat="@drawable/login"
+                tools:ignore="ContentDescription,ImageContrastCheck,VisualLintBounds" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:contentDescription="@string/todos"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/avatar" />
+
+            <EditText
+                android:id="@+id/txtUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/style_bordes"
+                android:drawableEnd="@android:drawable/sym_action_email"
+                android:ems="10"
+                android:hint="@string/user"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:background="@drawable/style_bordes"
+                android:ems="10"
+                android:hint="@string/pass"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black" />
+
+            <Button
+                android:id="@+id/BIniciar_sesion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#6225CF"
+                android:drawableEnd="@android:drawable/ic_menu_send"
+                android:text="@string/btnIn"
+                android:textColorLink="#673AB7"
+                app:iconTint="@color/white"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/BRegistrarse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#6224CF"
+                android:drawableEnd="@android:drawable/ic_menu_send"
+                android:text="@string/BRegistrate"
+                app:iconTint="@color/white"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/BRecuperar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#6225CF"
+                android:text="@string/Recuperar"
+                android:textColorLink="#673AB7" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
